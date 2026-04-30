@@ -31,3 +31,32 @@
 
 - After the basics, Java added wrapper classes to improve performance and usability.
 
+## Important classes:
+
+- ***BufferedInputStream/BufferedOutputStream***
+- ***BufferedReader/BufferedWriter***
+- ***PrintWriter***
+- ***DataInputStream/DataOutputStream***
+- ***PushbackInputStream/PushbackReader***
+
+### ***Why BUffered Streams Matter?***
+
+- Buffering reduce the disk access overhead.
+- ***BufferedReader*** enabled readLine().
+- ***PrintWriter*** made formatted text output conveinet.
+- ***DataInputStream*** and ***DataOutputStream*** supported binary primitives.
+
+
+
+# Random Access: ***RandomAccessFile***
+
+- Introduced to allow non-sequential file access.
+- Supports read/write at arbitrary positions.
+- Usefult for databases, indexes, and file formats that needs seeks.
+
+
+# Java 1.4: NIO Introduced Channels and Buffers
+
+- java NIO (***java.nio***) brought lower-level, efficient I/O.
+- Main concepts:
+
